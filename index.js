@@ -25,11 +25,13 @@ function sayHiToGrandma(string) {
     return "I love you, too.";
   }
   if (string.toUpperCase === true) {
-    var what = "HI!!"
-    return sayHiToGrandma(what);
+    var hear = "HI!!"
+    return sayHiToGrandma(hear);
     return "YES INDEED!";
   }
   if (string.toLowerCase === true) {
+    var this = "hello there!";
+    return sayHiToGrandma(this);
     return "I can\'t hear you!";
   }
   sayHiToGrandma(greeting);
