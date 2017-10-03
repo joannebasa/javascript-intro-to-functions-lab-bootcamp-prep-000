@@ -17,6 +17,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
+  var greeting = "I love you, Grandma.";
   if (string === "I love you, Grandma.") {
     return "Ilove you, too.";
   }
