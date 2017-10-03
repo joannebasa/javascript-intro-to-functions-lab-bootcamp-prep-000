@@ -22,8 +22,7 @@ function sayHiToGrandma(string) {
   }
   if (string.toUpperCase === true) {
     return "YES INDEED!";
-  }
-  if (string.toLowerCase === true) {
+  } else {
     return "I can\'t hear you!";
   }
 }
