@@ -11,10 +11,10 @@ function logShout(string) {
 }
 
 function logWhisper(string) {
+  const spy = expect.spyOn(console, 'log').andCallThrough()
 
 }
 
 function sayHiToGrandma(string) {
-  
-}
 
+}
